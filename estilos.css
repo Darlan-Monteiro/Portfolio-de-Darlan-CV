@@ -127,3 +127,21 @@ footer {
       width: 90%;
   }
 }
+.portfolio-item {
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.portfolio-item img {
+  display: inline-block; /* Permite centralizar a imagem dentro da div */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para realce */
+}
+
+.portfolio-item img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra no hover */
+  transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
